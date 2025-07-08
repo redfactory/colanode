@@ -24,6 +24,7 @@
     "test": "turbo run test -- --watch false",
     "format": "prettier --write .",
     "postinstall": "node --no-warnings --loader ts-node/esm scripts/src/postinstall/index.ts"
+    "start": "node apps/server/dist/index.js"
   },
   "devDependencies": {
     "@types/debug": "^4.1.12",
